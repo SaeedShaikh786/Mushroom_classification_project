@@ -23,6 +23,7 @@ class ModelTrainer:
         self.model_path=ModelTrainerConfig()
 
     def initiate_model_training(self,train_arr,test_arr):
+        ''' Stored the model.pkl into artifacts '''
         try:
             logging.info(f"{train_arr.shape,test_arr.shape}")
             logging.info("Model trainer stage:")

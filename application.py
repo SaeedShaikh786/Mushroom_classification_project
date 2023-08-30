@@ -36,7 +36,7 @@ def Predict():
         if pred=="e":
             pred="This Mushroom is Edible"
         else:
-            pred="This Mushroom is Poisonous"
+            pred="This Mushroom is Poisonous!"
 
         return render_template("home.html",final_result=pred)        
     
@@ -44,4 +44,4 @@ def Predict():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",port=5000)
+    app.run(host="0.0.0.0",port=8000)

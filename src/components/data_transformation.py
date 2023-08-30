@@ -36,6 +36,7 @@ class DataTransformation:
             raise CustomException(e, error_detail=sys)
     
     def InitiateDataTransformation(self,train_path,test_path):
+        ''' Return preprocessor path and transformed array'''
         try:
             logging.info("Data initiation has started")
             train_data=pd.read_csv(train_path)

@@ -11,6 +11,6 @@ log_file_name=os.path.join(log_path,log_file)
 
 logging.basicConfig(filename=log_file_name,level=logging.INFO)
 
-
+### 
 if __name__=="__main__":
     logging.info("logs have created")

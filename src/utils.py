@@ -7,6 +7,7 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import f1_score,roc_auc_score
 
 def Evaluate_models(X_train,X_test,y_train,y_test,models,params):
+    ''' Return Model report '''
 
     try:
         report={}

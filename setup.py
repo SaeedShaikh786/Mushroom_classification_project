@@ -9,7 +9,7 @@ def get_requirements(file_path:str)-> List[str]:
             requirements.remove(hypen)
     return requirements
 
-setup(name="Mushroom-project",
+setup(name="Mushroom--project",
 author="Saeed",
 version="0.0.1",
 author_email="saidshaikh.nagar@gmail.com"

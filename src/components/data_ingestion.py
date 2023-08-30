@@ -17,6 +17,7 @@ class DataIngestionConfig:
     raw_data=os.path.join("artifacts","raw.csv")
 
 class DataIngestion:
+    ''' Data ingetion class'''
     def __init__(self):
         self.get_data_ingestion_config=DataIngestionConfig()
 

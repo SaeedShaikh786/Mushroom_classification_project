@@ -5,7 +5,7 @@ def get_error_detail(error:str,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
     line_no=exc_tb.tb_lineno
     file_name=exc_tb.tb_frame.f_code.co_filename
-    error_message=f"The error msg is in line {line_no} of file: {file_name} and error message is :{error}"
+    error_message=f"The error msg is On line {line_no} of file: {file_name} and error message is :{error}"
 
     return error_message
 
