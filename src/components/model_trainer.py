@@ -15,6 +15,7 @@ from dataclasses import dataclass
 
 @dataclass
 class ModelTrainerConfig:
+    ''' Model trainer path object path stored '''
     model_trainer_path=os.path.join("artifacts","model.pkl")
 
 class ModelTrainer:
